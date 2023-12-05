@@ -2,6 +2,9 @@ import React from 'react';
 import { Tabs, Tab } from '@mui/material';
 
 function Test() {
+
+    const [value, setValue] = useState();
+
     return (
         <div>
             <Tabs indicatorColor="secondary" textColor="secondary" value={value} onChange={(e, val) => setValue(val)}>
